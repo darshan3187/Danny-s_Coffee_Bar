@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Coffee, MapPin, Phone, Clock, ArrowRight, Menu, X, ChevronRight } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // Assets
 import heroImg from './assets/hero.png';
@@ -340,6 +341,7 @@ const App = () => {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
